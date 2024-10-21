@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.bio {
+  border: solid 1pt black;
+}
+
+.projects {
+  border: solid 1pt black;
+}
+
+.home {
+  border: solid 1pt black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
