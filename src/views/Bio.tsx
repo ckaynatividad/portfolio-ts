@@ -3,6 +3,7 @@ import React from "react";
 export default function Bio() {
   return (
     <div className="bio">
+      <h2>Hello!</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

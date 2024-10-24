@@ -1,17 +1,44 @@
 .App {
   text-align: center;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bio {
-  border: solid 1pt black;
+  /* border: solid 1pt black; */
 }
 
 .projects {
-  border: solid 1pt black;
+  /* border: solid 1pt black; */
 }
 
+.bio,
+.projects {
+  height: 450px;
+  width: 310px;
+  margin: 20px;
+  background-color: rgb(252, 249, 249);
+  color: rgb(193, 194, 195);
+  text-align: left;
+  font-family: Garamond;
+}
+
+h2 {
+  color: rgb(131, 131, 132);
+}
 .home {
-  border: solid 1pt black;
+  /* border: solid 1pt black; */
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  padding: 70px;
+  /* background-color: rgb(243, 244, 251); */
 }
 
 .App-logo {

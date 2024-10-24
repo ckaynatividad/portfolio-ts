@@ -5,7 +5,6 @@ import Projects from "./Projects";
 export default function Home() {
   return (
     <div className="home">
-      Home
       <Bio />
       <Projects />
     </div>

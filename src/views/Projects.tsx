@@ -5,7 +5,7 @@ import { projectsData } from "../utils/projectData";
 export default function Projects() {
   return (
     <div className="projects">
-      Projects
+      <h2>My work + contributions</h2>
       <ProjectsCard projects={projectsData} />
     </div>
   );
